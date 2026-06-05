@@ -5,7 +5,7 @@ Homebrew tap for [PR Flow](https://github.com/akozma89/pr-flow-releases) — a m
 ## Install
 
 ```sh
-brew tap akozma89/pr-flow-homebrew https://github.com/akozma89/pr-flow-homebrew
+brew tap akozma89/pr-flow https://github.com/akozma89/homebrew-pr-flow
 brew install --cask pr-flow
 xattr -dr com.apple.quarantine '/Applications/PR Flow.app'
 ```
@@ -15,7 +15,7 @@ xattr -dr com.apple.quarantine '/Applications/PR Flow.app'
 ## Update
 
 ```sh
-brew tap akozma89/pr-flow-homebrew https://github.com/akozma89/pr-flow-homebrew
+brew tap akozma89/pr-flow https://github.com/akozma89/homebrew-pr-flow
 brew upgrade --cask pr-flow
 xattr -dr com.apple.quarantine '/Applications/PR Flow.app'
 ```
@@ -24,5 +24,5 @@ xattr -dr com.apple.quarantine '/Applications/PR Flow.app'
 
 ```sh
 brew uninstall --cask pr-flow
-brew untap akozma89/pr-flow-homebrew
+brew untap akozma89/pr-flow
 ```
