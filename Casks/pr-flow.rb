@@ -1,7 +1,7 @@
 cask "pr-flow" do
-  version "1.0.6"
-  sha256 arm:   "a2d9677558757201d1986228fb6c79498e831d4346881190e2ece6fd748d19dc",
-         intel: "218eb5263e8e2cab182e3ac910aac70f3d36bb3d34f7c02c03ebebdaaf9ac584"
+  version "1.0.7"
+  sha256 arm:   "63832f2bbd15caac4961410013fb5bf836e5a27568d52dd6aaec597ee2e40a4e",
+         intel: "2d5e348b0b999b2365e5fb9477f5fbb2af8c24a4ca77033709d536cffd1ff64e"
 
   on_arm do
     url "https://github.com/akozma89/pr-flow-releases/releases/download/v#{version}/PR-Flow-#{version}-arm64.dmg"
