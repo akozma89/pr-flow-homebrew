@@ -5,6 +5,7 @@ Homebrew tap for [PR Flow](https://github.com/akozma89/pr-flow-releases) — a m
 ## Install
 
 ```sh
+brew trust akozma89/pr-flow-homebrew
 brew tap akozma89/pr-flow-homebrew https://github.com/akozma89/pr-flow-homebrew
 brew install --cask pr-flow
 xattr -dr com.apple.quarantine '/Applications/PR Flow.app'
