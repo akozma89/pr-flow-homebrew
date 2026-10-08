@@ -1,6 +1,6 @@
 cask "pr-flow" do
-  version "1.19.1"
-  sha256 "68cee24e42fa20d432c6382c490ab258414a303289202edad4c5da8e75a72af8"
+  version "1.20.0"
+  sha256 "484654051f39e082509fdf6317fdd3b50ac933cfa7ffcd02152ca85ab8443a4b"
 
   url "https://github.com/akozma89/pr-flow-releases/releases/download/v#{version}/PR-Flow-#{version}-universal.dmg"
 
